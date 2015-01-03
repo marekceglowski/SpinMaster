@@ -1,0 +1,20 @@
+Command List:
+    LMouse     Attract Particles
+    RMouse     Deflect Particles
+    a          Add Particle at Cursor
+    d          Delete Closest Particle to Cursor
+    s          Spin Particles Around Cursor
+    q          Spin Particles Around Saved Point
+    w          Wobble Mode
+    e          Explode Mode
+    j          Jiggle Mode
+    f          Flash Mode
+    t          Tracer Mode
+    n          Output Number of Particles
+    c          Clear Screen
+    r          Reset Particles
+    1-7        Change Color
+    +/-        Increase/Decrease Global Range
+    Up/Down    Increase/Decrease Global Speed
+    Spacebar   Pause Application
+    ESC        Quit Application

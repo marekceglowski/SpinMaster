@@ -13,7 +13,9 @@
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
+					<Add option="-static-libgcc -static-libstdc++" />
 					<Add option="-g" />
+					<Add option="-static" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -24,6 +26,8 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add option="-static-libgcc -static-libstdc++" />
+					<Add option="-static" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,6 +36,7 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="-static" />
 			<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/include" />
 		</Compiler>
 		<Linker>
